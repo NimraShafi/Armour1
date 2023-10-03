@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"
+            />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Live Location Sharing"
+            android:icon="@drawable/location"/>
+
+        <item
+            android:id="@+id/nav_alert"
+            android:title="Alert"/>
+
+        <item
+            android:id="@+id/nav_self_defence"
+            android:title="Self Defence"/>
+
+        <item
+            android:id="@+id/nav_safety_tips"
+            android:title="Safety Tips"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>
